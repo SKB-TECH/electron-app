@@ -1,13 +1,21 @@
 {
   "name": "electron_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "this projet is to learn electron ",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "dev:watch":"electronmon --trace-warnigs ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "electron",
+    "reactjs",
+    "typescript"
+  ],
+  "author": "benjamin",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^27.0.1"
+  }
 }
